@@ -1,16 +1,16 @@
 @font-face {
-    src: url(/WebProjects/fonts/Gotham.otf);
+    src: url(/WebProjects/PhotographyWebsite/fonts/Gotham.otf);
     font-family:"Gotham rounded bold";
 }
 
 @font-face {
-    src: url(/WebProjects/fonts/light.otf);
+    src: url(/WebProjects/PhotographyWebsite/fonts/light.otf);
     font-family:"Gotham rounded light";
 }
 
 @font-face{
-    src: url(/WebProjects/fonts/Gothammedium.otf);
-    font-family: "Gotham Rounded Medium";
+    src: url(/WebProjects/PhotographyWebsite/fonts/Gothammedium.otf);
+    font-family: "Gotham rounded medium";
 }
 
 
@@ -26,7 +26,7 @@ header{
    width:1280px;
    max-width:100%;
    height:745px;
-   background-image:url('/WebProjects/Pictures/Livello 1.png');
+   background-image:url('/WebProjects/PhotographyWebsite/Pictures/Livello 1.png');
    background-size:1280px 745px;
    display:flex;
    justify-content:center;
@@ -295,7 +295,7 @@ nav .design{
 .para-community p{
     font-size:5pt;
     text-align:center;
-    font-size: "Gotham Rounded Medium";
+    font-size: "Gotham rounded medium";
     line-height:0.9em;
     letter-spacing:0.3em;
     color:black;
@@ -310,10 +310,52 @@ nav .design{
     width:1280px;
     height:790px;
     max-width:100%;
-    background-image: url(/WebProjects/Pictures/Livello\ 3.png);
+    background-image: url(/WebProjects/PhotographyWebsite/Pictures/Livello\ 3.png);
     background-size: 1280px 790px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
 
+.subscribe h1{
+    font-size:20px;
+    font-family: "Gotham Rounded bold";
+    color:white;
+    margin-bottom:35px;
+}
+.email{
+    display:flex;
+    width:242px;
+    height:38px;
+}
+
+.email input{
+    height:36px;
+    width:200px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border:none;
+    outline:none;
+}
+
+::placeholder{
+    color:rgb(58, 57, 57);
+    padding-left: 20px;
+    font-family: "Gotham rounded medium";
+    text-transform: uppercase;
+}
+
+.check{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #16a085;
+    width:38px;
+    height:38px;
+    border-bottom-right-radius:2px;
+    border-top-right-radius:2px;
+}
 
 
 
@@ -321,14 +363,111 @@ nav .design{
     width:1280px;
     height:396px;
     background-color: #F5F6F7;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
 }
 
+.store-container{
+    /* border:2px solid tomato; */
+    width:877px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.download h1{
+    color:rgb(70, 67, 67);
+    font-family: "Gotham rounded bold";
+    font-size:16px;
+}
+.para-lorem{
+    max-width:80%;
+    margin:0 auto;
+    margin-bottom:25px;
 
+}
+.para-lorem{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Gotham rounded medium";
+}
+.button-store{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.button-apple, .button-andriod{
+    background-color: #1abc9c;
+    height:35px;
+    font-family: "Gotham rounded bold";
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing: 0.2em;
+    
+}
+.button-apple{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.button-andriod{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.apple-logo, .android-logo{
+    background-color: #16a085;
+    width: 35px;
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
+.apple-logo{
+    margin-right:26px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.android-logo{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
 
-
-
+    /**** footer ****/
+    
 footer{
     width:1280px;
     height:131px;
+    display:flex;
+    align-items: center;
+}
+
+.footer-text ul{
+    display:flex;
+    list-style-type: none;  
+    /* border:1px solid black; */
+}
+.footer-text ul li{
+    padding:10px;
+    text-transform:uppercase;
+    font-family: "Gotham rounded bold";
+    font-size:10px;
+    color:rgb(70, 67, 67);
+}
+.copyright p{
+    font-family: "Gotham rounded bold";
+    font-size:10px;
+    color:rgb(70, 67, 67);
+    padding-left:49px
+}
+.credit{
+    display:flex;
+    align-items: center;
+    color:#16a085;
+}
+.image-camera-green{
+    position:relative;
+    left:55%;
 }
