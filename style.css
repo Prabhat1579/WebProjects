@@ -89,6 +89,10 @@ nav .design{
 
 /* nav bar ending */
 
+.heading h1{
+    font-size:17px;
+}
+
 .home-2{
     display:flex;
     height:600px;
@@ -183,7 +187,7 @@ nav .design{
     margin-top:113px;
 }
 .heading h1{
-    font-size:9pt;
+    /* font-size:9pt; */
     color: #16a085;
     line-height:1.4em;
     font-weight:700;
@@ -201,7 +205,7 @@ nav .design{
 }
 
   p{
-    font-size:6pt;
+    font-size:9px;
     line-height:2.4em;
     font-weight:700;
     text-align: left;
@@ -233,11 +237,17 @@ nav .design{
 .hd{
     margin-bottom:45px;
 }
+.hd h1{
+    font-size:19px;
+}
 
 .para{
     margin-bottom:58px;
+    font-size:9px;
 }
-
+.para p{
+    font-size:10px;
+}
 .hd, .para{
     padding-inline-start: 20px;
 }
@@ -248,7 +258,7 @@ nav .design{
 
 .num-1{
     font-family:"Gotham Rounded light";
-    font-size:6pt;
+    font-size:10px;
 }
 
 .bracket-img, .num-1{
@@ -272,8 +282,8 @@ nav .design{
 
 .community-text{
     /* border:2px solid salmon; */
-    width:177px;
-    height:200px;
+    width:200px;
+    height:250px;
 }
 .image-content{
     width: 764px;
@@ -289,7 +299,7 @@ nav .design{
 }
 .community h1{
     text-align: center;
-    font-size:8pt;
+    /* font-size:8pt; */
     color:rgb(39, 37, 37);
     font-family:"Gotham Rounded bold";
 }
@@ -303,7 +313,7 @@ nav .design{
     /* border:2px solid yellow; */
 }
 .para-community p{
-    font-size:5pt;
+    font-size:10px;
     text-align:center;
     font-size: "Gotham rounded medium";
     line-height:0.9em;
@@ -370,6 +380,7 @@ nav .design{
     height:38px;
     border-bottom-right-radius:2px;
     border-top-right-radius:2px;
+    cursor: pointer;
 }
 
 
